@@ -11,3 +11,6 @@ export function manageFriends(state = { friends: [] }, action) {
       return state
   }
 }
+
+// manageFriends(state, {type: "friends/add", payload: {name: "marie", common: "highschool", id: 1}})
+// manageFriends(state, {type: "friends/remove", id:1})
